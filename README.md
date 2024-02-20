@@ -26,16 +26,3 @@ Atributos da linguagem:
 JAVA é chamado de linguagem **WORA** (*Write Once, Run Anywhere*) porque com um código escrito ele irá rodar em qualquer plataforma na **JVM**.
 
 Baixando o Java JDK e instalando na máquina, antigamente era preciso fazer uma pequena configuração para o compilador, hoje em dia já vem tudo configurado. Então é só instalar o JDK.
-
-### O primeiro programa em JAVA
-
-```java
-class HelloWorld {
-	public static void main (String[] args){
-		System.out.println("Hello World!");
-	}
-}
-```
-
-Todas as classes viram nome de arquivo e precisam seguir o padrão de CamelCase.
-Ainda não sei muito bem sobre o que fazem os comandos *public*, *static*, *void* acho que é o retorno etc. System out vem de output, então é a saída. E o “Hello World” é o vetor de string que foi chamado no String[ ].
