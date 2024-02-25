@@ -2,6 +2,7 @@ package aula12;
 
 import java.util.Scanner;
 
+
 public class LeituraDadosTeclado {
 
     public static void main(String[] args) {
@@ -39,6 +40,6 @@ public class LeituraDadosTeclado {
         System.out.println("Altura: " +altura);
         System.out.println("Tem bichinho de estimação? " +temPet);
 
-
+        scan.close();
     }
 }
