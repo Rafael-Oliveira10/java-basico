@@ -18,8 +18,8 @@ public class ex13 {
         int baseHomem2 = 58;
 
         double alturaMulher = sc.nextDouble();
-        double baseMulher = 72.7;
-        int baseMulher2 = 58;
+        double baseMulher = 62.1;
+        double baseMulher2 = 44.7;
 
         //Está funcional, mas não do jeito que eu queria.
         //Gostaria que a seleção de sexo, fosse somente uma opção
