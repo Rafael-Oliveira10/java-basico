@@ -15,6 +15,14 @@ public class ex06 {
         double pi = 3.14;
         double area = pi * raio2;
 
+        //double area = Math.PI * Math.pow(raio, 2);
+        //O resultado apresentado acima é o mesmo do código que eu fiz anteriormente.
+
+        //O mesmo calculo acima, pode ser feito utilizando a classe Math
+        // por motivos de aprendizado eu prefiri fazer na unha dessa vez
+        // porém vou deixar anotado acima para eventuais consultas
+
+
         System.out.println("A area do circulo é: " +area +"mm");
     }
 }

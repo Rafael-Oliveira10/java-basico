@@ -6,8 +6,11 @@ public class ex10 {
 
         System.out.println("Qual a temperatura de hoje em graus Celsius?");
 
+        int baseCelsius = 32;
         int celsius = sc.nextInt();
-        double fahrenheit = (double) celsius * 1.8 +32;
+        //eliminando 'magic number', criando uma variavel e dando sentido ao 1.8.
+        double baseConversao = 1.8;
+        double fahrenheit = (double) celsius * baseConversao +baseCelsius;
 
         System.out.println("A temperatura de hoje em Fahrenheit é: " +fahrenheit);
     }

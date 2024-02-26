@@ -13,9 +13,9 @@ public class ex05 {
         //Para fixar o conteudo aprendido anteriormente
         double metro = sc.nextDouble();
 
-        double resultado = (double) metro * 100;
+        double resultado = metro * 100;
 
-        System.out.println("O resultado é: " +resultado +"cm");
+        System.out.println(metro + "m é igual a: " +resultado +"cm");
 
     }
 }

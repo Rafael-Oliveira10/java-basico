@@ -7,7 +7,9 @@ public class ex09 {
         System.out.println("Qual a temperatura de hoje em Farenheit?");
 
         int fahrenheit = sc.nextInt() -32;
-        double celsius = fahrenheit / 1.8;
+        double baseConversao = 1.8;
+        //eliminando 'magic number', criando uma variavel e dando sentido ao 1.8.
+        double celsius = fahrenheit / baseConversao;
 
         System.out.println("A temperatura de hoje em Celsius, é:" +celsius);
     }

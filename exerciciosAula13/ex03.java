@@ -6,9 +6,10 @@ public class ex03 {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Insira um valor: " );
-
+        System.out.println("Insira o primeiro valor: ");
         int valor1 = sc.nextInt();
+
+        System.out.println("Insira o segundo valor: ");
         int valor2 = sc.nextInt();
 
         int resultado = valor1 + valor2;
