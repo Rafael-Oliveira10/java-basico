@@ -18,15 +18,11 @@ public class ex14 {
 
         double salarioLiquido = salarioBruto - totalDescontos;
 
-
         System.out.println("O salario bruto desse mes foi de: " +salarioBruto);
         System.out.println("O total de desconto, referente ao inss foi: " +inss);
         System.out.println("O total de desconto, referente ao sindicato foi: " +sindicato);
         System.out.println("O total de descontos referente ao ir foi: " +ir);
         System.out.println("O total de descontos desse mes foi de: " +totalDescontos);
         System.out.println("O salario liquido desse mes foi de: " +salarioLiquido);
-
-
-
     }
 }

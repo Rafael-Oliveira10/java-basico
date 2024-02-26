@@ -13,7 +13,5 @@ public class ex15 {
         double tempo =  tamArquivo / velInternet;
 
         System.out.println("O tempo médio de download do seu arquivo é de: " +tempo);
-
-
     }
 }
