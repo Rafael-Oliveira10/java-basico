@@ -5,31 +5,31 @@ public class LeituraDadosTeclado {
 
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 /*
         System.out.println("Digite seu nome completo: ");
-        String nomeCompleto = scan.nextLine();
+        String nomeCompleto = sc.nextLine();
         System.out.println("Seu nome completo é: " + nomeCompleto);
 
         System.out.println("Digite seu primeiro nome: ");
-        String primeiroNome = scan.next();
+        String primeiroNome = sc.next();
         System.out.println("Seu primeiro nome é: " + primeiroNome);
 
         System.out.println("Digite a sua idade: ");
-        int idade = scan.nextInt();
+        int idade = sc.nextInt();
         System.out.println("Sua idade é: "  + idade);
 
         System.out.println("Qual a sua altura? ");
-        double altura = scan.nextDouble();
+        double altura = sc.nextDouble();
         System.out.println("Sua altura é: " + altura);
 */
         System.out.println("Digite o seu primeiro nome, idade, quantidade de filhos, altura e se " +
                 "tem bicho de estimação");
-        String primeiroNome = scan.next();
-        int idade = scan.nextInt();
-        byte qtdFilhos = scan.nextByte();
-        float altura = scan.nextFloat();
-        boolean temPet = scan.nextBoolean();
+        String primeiroNome = sc.next();
+        int idade = sc.nextInt();
+        byte qtdFilhos = sc.nextByte();
+        float altura = sc.nextFloat();
+        boolean temPet = sc.nextBoolean();
 
         System.out.println("Você digitou os seguintes valores: ");
         System.out.println("Primeiro nome: " +primeiroNome);
@@ -38,6 +38,6 @@ public class LeituraDadosTeclado {
         System.out.println("Altura: " +altura);
         System.out.println("Tem bichinho de estimação? " +temPet);
 
-        scan.close();
+        sc.close();
     }
 }
