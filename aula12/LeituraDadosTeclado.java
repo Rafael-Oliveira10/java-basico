@@ -1,8 +1,6 @@
 package aula12;
 
 import java.util.Scanner;
-
-
 public class LeituraDadosTeclado {
 
     public static void main(String[] args) {
@@ -31,7 +29,7 @@ public class LeituraDadosTeclado {
         int idade = scan.nextInt();
         byte qtdFilhos = scan.nextByte();
         float altura = scan.nextFloat();
-        boolean temPet = scan.hasNextBoolean();
+        boolean temPet = scan.nextBoolean();
 
         System.out.println("Você digitou os seguintes valores: ");
         System.out.println("Primeiro nome: " +primeiroNome);
