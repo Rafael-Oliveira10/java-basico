@@ -22,6 +22,6 @@ public class ex3_1 {
         } else {
             System.out.println("Sexo INVÁLIDO!");
         }
-
+        scan.close();
     }
 }

@@ -22,6 +22,7 @@ public class ex04 {
         }else {
             System.out.println("A letra inserida é uma consoante!");
         }
+        scan.close();
         //E também pode ser feito com switch
         /*switch (letra) {
             case "a":
