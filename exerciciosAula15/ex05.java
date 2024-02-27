@@ -22,7 +22,7 @@ public class ex05 {
             System.out.println("PARABÉNS " +name + " você foi aprovado com distinção!");
         }else if(finalGrade >= 6){
             System.out.println("PARABÉNS " +name + " você foi aprovado!");
-        }else if(finalGrade < 6){
+        }else{
         System.out.println("Infelizmente " +name + " você foi reprovado!");
         }
         scan.close();

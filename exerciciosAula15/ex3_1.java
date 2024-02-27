@@ -12,7 +12,9 @@ public class ex3_1 {
                 M - Masculino
                 F - Feminino""");
         char userGender = scan.next().charAt(0);
-
+        //String input = scan.next();
+        //--- Pode ser feito desse jeito também
+        // if (input.equalsIgnoreCase("f"))
         if(userGender == 'M'){
             System.out.println("O seu sexo é: Masculino");
         } else if (userGender == 'F'){
