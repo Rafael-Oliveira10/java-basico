@@ -10,12 +10,11 @@ public class ex12 {
         double horasTrabalhadas = scan.nextDouble();
 
         double salarioBruto = valorHora * horasTrabalhadas;
-        double sindicato = (salarioBruto / 100) * 3;
         double inss = (salarioBruto / 100) * 10;
         double fgts = (salarioBruto / 100) * 11;
         double ImpostoRenda = 0;
-        double totalDescontos = sindicato + inss + ImpostoRenda;
-        double salarioLiquido = salarioBruto - totalDescontos;
+
+
 
         if (salarioBruto <= 900){
            ImpostoRenda = 0;
@@ -27,7 +26,11 @@ public class ex12 {
             ImpostoRenda = 20;
         }
 
+        /*consegui arrumar o bug do totalDescontos após conseguir arrumar o problema da variavel
+          fora do escopo. */
         double descontoIr = (salarioBruto / 100) * ImpostoRenda;
+        double totalDescontos = inss + descontoIr;
+        double salarioLiquido = salarioBruto - totalDescontos;
 
         System.out.println("Seu salario bruto foi de: " +salarioBruto);
         System.out.println("Seu Desconto de Imposto de renda foi de: " + descontoIr);
