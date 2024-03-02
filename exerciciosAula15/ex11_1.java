@@ -26,5 +26,6 @@ public class ex11_1 {
         System.out.println("Valor do aumento " + ajuste);
         System.out.println("Salario após o reajuste " + salarioAjustado);
 
+        scan.close();
     }
 }

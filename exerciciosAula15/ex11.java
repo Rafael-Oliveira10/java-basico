@@ -25,5 +25,6 @@ public class ex11 {
         System.out.println("Percentual " +percentage);
         System.out.println("Aumento " +increase);
         System.out.println("Salário após o aumento " +adjustedSalary);
+        scan.close();
     }
 }

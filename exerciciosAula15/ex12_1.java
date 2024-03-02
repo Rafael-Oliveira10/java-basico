@@ -16,13 +16,13 @@ public class ex12_1 {
         double fgts = (salarioBruto / 100) * 11;
         double impostoRenda = 0;
 
-        if(salarioBruto < 900){
+        if (salarioBruto < 900) {
             impostoRenda = 0;
-        } else if (salarioBruto > 900 && salarioBruto <= 1500){
+        } else if (salarioBruto > 900 && salarioBruto <= 1500) {
             impostoRenda = 5;
-        } else if (salarioBruto > 1500 && salarioBruto <= 2500){
+        } else if (salarioBruto > 1500 && salarioBruto <= 2500) {
             impostoRenda = 10;
-        } else if (salarioBruto > 2500){
+        } else if (salarioBruto > 2500) {
             impostoRenda = 20;
         }
 
@@ -30,11 +30,12 @@ public class ex12_1 {
         double totalDescontos = inss + descontoIr;
         double salarioLiquido = salarioBruto - totalDescontos;
 
-        System.out.println("Salário Bruto: " +salarioBruto);
+        System.out.println("Salário Bruto: " + salarioBruto);
         System.out.println("Desconto Ir: " + descontoIr);
         System.out.println("Desconto INSS: " + inss);
-        System.out.println("Depósito FGTS: " +fgts);
-        System.out.println("Total de descontos: " +totalDescontos);
-        System.out.println("Salário liquido: " +salarioLiquido);
+        System.out.println("Depósito FGTS: " + fgts);
+        System.out.println("Total de descontos: " + totalDescontos);
+        System.out.println("Salário liquido: " + salarioLiquido);
+        scan.close();
     }
 }
