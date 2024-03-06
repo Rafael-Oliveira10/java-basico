@@ -1,4 +1,5 @@
 package exerciciosAula15;
+//Baskara :´)
 
 import java.util.Scanner;
 
@@ -28,7 +29,7 @@ public class ex16 {
 
                 double x1 = ((-b) + Math.sqrt(delta)) / (2*a);
                 double x2 = ((-b) - Math.sqrt(delta)) / (2*a);
-                //Baskara :´)
+
                 System.out.println("X1 = " +x1);
                 System.out.println("X2 = " +x2);
             }

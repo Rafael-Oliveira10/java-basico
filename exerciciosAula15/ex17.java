@@ -1,5 +1,5 @@
 package exerciciosAula15;
-
+//Verifica se um ano é bissexto
 import java.util.Scanner;
 
 public class ex17 {

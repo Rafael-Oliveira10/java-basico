@@ -1,5 +1,5 @@
 package exerciciosAula15;
-
+//exercicio para verificar o tipo de triangulo
 import java.util.Scanner;
 
 public class ex15 {

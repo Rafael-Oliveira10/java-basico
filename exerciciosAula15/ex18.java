@@ -1,5 +1,6 @@
 package exerciciosAula15;
-
+//Verifica uma data válida
+//Ainda não ficou do jeito que eu queria, no futuro volto para arrumar
 import java.util.Scanner;
 
 public class ex18 {
