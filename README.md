@@ -20,9 +20,7 @@ Atributos da linguagem:
 - Portável
 - Ótima performance
 - Robusta e Segura
-
-![Untitled](JAVA%200fbeaceaecf2420aa7f493b72771be79/Untitled.png)
-
+  
 JAVA é chamado de linguagem **WORA** (*Write Once, Run Anywhere*) porque com um código escrito ele irá rodar em qualquer plataforma na **JVM**.
 
 Baixando o Java JDK e instalando na máquina, antigamente era preciso fazer uma pequena configuração para o compilador, hoje em dia já vem tudo configurado. Então é só instalar o JDK.
