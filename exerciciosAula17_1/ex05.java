@@ -63,17 +63,17 @@ public class ex05 {
             }
         } while (!valid);
 
-        int anos = 0;
+        int years = 0;
 
         while (popA < popB) {
             popA += (popA / 100) * taxA;
             popB += (popB / 100) * taxB;
-            anos++;
+            years++;
         }
 
         System.out.println("População A: " + popA);
         System.out.println("População B: " + popB);
-        System.out.println("Qtd anos " + anos);
+        System.out.println("Qtd anos " + years);
 
         scan.close();
     }

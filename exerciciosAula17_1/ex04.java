@@ -8,16 +8,16 @@ public class ex04 {
 
         int popA = 80000;
         int popB = 200000;
-        int anos = 0;
+        int years = 0;
 
         while(popA < popB){
             popA += (popA / 100) * 3;
             popB += (popB / 100) * 1.5;
-            anos++;
+            years++;
         }
 
         System.out.println("População A " +popA);
         System.out.println("População B " +popB);
-        System.out.println("Qtd de anos " +anos);
+        System.out.println("Qtd de anos " +years);
     }
 }
