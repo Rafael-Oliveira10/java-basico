@@ -1,8 +1,9 @@
-package exerciciosAula17_1;
+package exerciciosAula17;
+//lendo e identificando um número digitado pelo usuário
 
 import java.util.Scanner;
 
-public class ex07_1 {
+public class ex07 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
@@ -16,7 +17,9 @@ public class ex07_1 {
             if (num > maior) {
                 maior = num;
                 System.out.println("O maior número foi atualizado: " + maior);
+                //Identifica o maior numero digitado pelo usuario
             }
+
         }
         System.out.println("O maior número digitado foi: " + maior);
         scan.close();

@@ -1,4 +1,4 @@
-package exerciciosAula17_1;
+package exerciciosAula17;
 //Coleta alguns dados do usuário e os apresenta no final
 import java.util.Scanner;
 

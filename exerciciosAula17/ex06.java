@@ -1,4 +1,4 @@
-package exerciciosAula17_1;
+package exerciciosAula17;
 //Contador de 1 a 20 usando loop for
 
 import java.util.Scanner;

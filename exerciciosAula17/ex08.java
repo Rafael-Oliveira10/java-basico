@@ -1,4 +1,4 @@
-package exerciciosAula17_1;
+package exerciciosAula17;
 //Pede 5 valores ao usuário, soma e retorna uma média
 import java.util.Scanner;
 

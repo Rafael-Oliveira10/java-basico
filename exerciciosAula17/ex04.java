@@ -1,4 +1,4 @@
-package exerciciosAula17_1;
+package exerciciosAula17;
 //Verifica a espectativa de crescimento demográfico de duas cidades
 import java.util.Scanner;
 

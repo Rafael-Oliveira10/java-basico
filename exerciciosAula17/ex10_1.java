@@ -1,11 +1,10 @@
-package exerciciosAula17_1;
-//Mostra todos os números dentro de um intervalo
+package exerciciosAula17;
+
 import java.util.Scanner;
 
-public class ex10 {
+public class ex10_1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-
 
         System.out.println("Insira o primeiro número: ");
         int num1 = scan.nextInt();

@@ -1,4 +1,4 @@
-package exerciciosAula17_1;
+package exerciciosAula17;
 //Semelhante ao exercício anterios, de calcular o crescimento populacional
 //Nessa versão podemos trabalhar inserindo os dados que temos sobre determinada cidade
 //E não algo pré definido

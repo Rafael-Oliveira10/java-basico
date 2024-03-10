@@ -1,4 +1,4 @@
-package exerciciosAula17_1;
+package exerciciosAula17;
 
 //Mostra os valores impares de 1 a 50
 public class ex09 {

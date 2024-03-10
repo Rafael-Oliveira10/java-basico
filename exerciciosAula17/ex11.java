@@ -1,8 +1,9 @@
-package exerciciosAula17_1;
+package exerciciosAula17;
+// Le dois numeros, mostra todos os numeros no intervalo e os soma depois
 
 import java.util.Scanner;
 
-public class ex10_1 {
+public class ex11 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
@@ -12,9 +13,14 @@ public class ex10_1 {
         System.out.println("Insira o primeiro número: ");
         int num2 = scan.nextInt();
 
-        for(int i = num1; i <= num2; i++){
+        int sum = 0;
+
+        for (int i = num1; i <= num2; i++) {
             System.out.println(i);
+            sum += i;
         }
+        System.out.println("Soma: " + sum);
+
         scan.close();
     }
 }

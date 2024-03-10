@@ -1,4 +1,4 @@
-package exerciciosAula17_1;
+package exerciciosAula17;
 //Registra um nome e uma senha, se os valores forem iguais
 //Solicita novamente a inserção dos dados ao usuário
 import java.util.Scanner;
