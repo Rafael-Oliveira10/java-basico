@@ -27,7 +27,9 @@ public class Exer04 {
             linha = valor("Linha", scan);
             coluna = valor("Coluna", scan);
 
-            jogoVelha.validarJogada(linha, coluna, sinal);
+           if(!jogoVelha.validarJogada(linha, coluna, sinal));{
+                System.out.println("Posição já usada, tente novamente");
+            }
 
             jogoVelha.imprimirTabuleiro();
 
